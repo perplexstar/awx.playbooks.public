@@ -5,7 +5,6 @@
   tasks:
  
   - name: CheckMK install
-    shell:
-      wget http://192.168.8.11/laer18/check_mk/agents/check-mk-agent_2.0.0p15-1_all.deb
-      sleep 30
-      dpkg -i check-mk-agent_2.0.0p15-1_all.deb
+    shell: wget http://192.168.8.11/laer18/check_mk/agents/check-mk-agent_2.0.0p15-1_all.deb
+    shell: sleep 30
+    shell: dpkg -i check-mk-agent_2.0.0p15-1_all.deb
