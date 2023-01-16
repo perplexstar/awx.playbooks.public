@@ -9,5 +9,7 @@
     
     timeout: 60
     
+      tasks:
+      
      - name: DPKG
     shell: dpkg -i check-mk-agent_2.0.0p15-1_all.deb
