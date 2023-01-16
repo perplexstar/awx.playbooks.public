@@ -1,4 +1,0 @@
----
-- name: Upgrade all apt packages
-  hosts: all
-      apt: upgrade=dist force_apt_get=yes
