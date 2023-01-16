@@ -1,5 +1,0 @@
----
-tasks:
-  - name: Print debug message
-    debug:
-      msg: Hello, world!
