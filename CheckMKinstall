@@ -1,0 +1,13 @@
+---
+- name: CheckMKinstall
+  hosts: all
+ 
+  tasks:
+ 
+  - name: WGET
+    shell: wget http://192.168.8.11/laer18/check_mk/agents/check-mk-agent_2.0.0p15-1_all.deb
+    
+    timeout: 60
+    
+     - name: DPKG
+    shell: dpkg -i check-mk-agent_2.0.0p15-1_all.deb
