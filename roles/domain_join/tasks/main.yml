@@ -23,7 +23,7 @@
     name: {{ item }}
     state: present 
     update_cache: yes
-  with_items:
+    with_items:
     - realmd
     - sssd
     - adcli
