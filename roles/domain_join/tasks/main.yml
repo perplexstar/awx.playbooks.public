@@ -78,7 +78,7 @@
 
 - name: Debug realm_list_results
   debug:
-    msg: {{ realm_list_results.stdout }}
+    msg: "{{ realm_list_results.stdout }}"
 
 - name: Join system to AD
   expect:
