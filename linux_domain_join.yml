@@ -3,7 +3,7 @@
 # This playbook joins a linux server (debian/ubunto) to an active directory domain.
 
 - name: Apply common configuration
-  hosts: domain_join
+  hosts: all
   become: true
 
   roles:
