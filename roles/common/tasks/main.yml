@@ -7,14 +7,7 @@
     state: present
   tags: ntp
 
-- name: Configure ntp file
-  template:
-    src: ntp.conf.t1
-    dest: /etc/ntp.conf
-    backup: yes
-  tags: ntp
-  notify: restart ntp
-  become: true
+
 
 - name: Start the ntp service
   service:
